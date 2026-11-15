@@ -1,0 +1,36 @@
+# PyTorch with CUDA 12.1 wheel index
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Deep Learning Framework
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# Hugging Face Transformers & Ecosystem
+transformers==4.40.1
+accelerate==1.13.0
+huggingface_hub==0.36.2
+safetensors==0.7.0
+sentence-transformers==3.0.1
+
+# Computer Vision & Image Processing
+Pillow==10.4.0
+
+# Scientific Computing & Machine Learning
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+umap-learn==0.5.11
+einops==0.8.2
+pandas==2.3.3
+
+# ONNX Runtime for Fast Tagging Inference (WD-Tagger & Camie-Tagger)
+# Note: For systems without NVIDIA GPU, replace with: onnxruntime>=1.18.0
+onnxruntime-gpu==1.23.2
+
+# Fast Database Caching & Utilities
+lmdb>=1.5.1
+requests==2.32.5
+tqdm==4.67.3
+
+# Optional GUI Enhancements (drag-and-drop support)
+tkinterdnd2>=0.3.0
