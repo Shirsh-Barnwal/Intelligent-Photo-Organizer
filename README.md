@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Intelligent Photo Organizer & Semantic Image Sorter
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -234,3 +235,6 @@ python train_dinov.py --data_dir "/path/to/photos" --epochs 10 --batch_size 16 -
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+=======
+# Intelligent-Photo-Organizer
+>>>>>>> origin/main
